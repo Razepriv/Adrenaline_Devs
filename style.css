@@ -343,7 +343,7 @@ select #cars {
 .brand-carousel{
     width: 100%;
     height: 30vh;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
     margin-top: 2%;
     text-align: center;
@@ -354,7 +354,7 @@ select #cars {
 .brand-carousel-wrapper{
     width: 1100px;
     height: 200px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: auto;
     /* margin-top: 2%; */
     text-align: center;
@@ -380,10 +380,100 @@ select #cars {
     border-radius: 360%;
     width: 150px;
     height: 150px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: inline-flex;
     transform:translateX(50%);
-    
+}
 
+.blog{
+    width: 90%;
+    height: 80vh;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+.title{
+    width: 100%;
+    height: 10%;
+    /* border: 1px solid red; */
+}
+.outline{
+    width: 100%;
+    height: 80%;
+    /* border: 1px solid blue; */
+    display: inline-block;
+}
+.part1{
+    width: 33%;
+    height: 80%;
+    /* border: 1px solid brown; */
+    display: inline-block;
+    box-shadow: 0px 0.7654320001602173px 2.2962961196899414px 0px rgba(0, 0, 0, 0.30);
+    border-radius: 11.481px;
+}
+.part2{
+    width: 33%;
+    height: 80%;
+    /* border: 1px solid yellowgreen; */
+    display: inline-block;
+    box-shadow: 0px 0.7654320001602173px 2.2962961196899414px 0px rgba(0, 0, 0, 0.30);
+    border-radius: 11.481px;
+}
+.part3{
+    width: 33%;
+    height: 80%;
+    /* border: 1px solid blueviolet; */
+    display: inline-block;
+    box-shadow: 0px 0.7654320001602173px 2.2962961196899414px 0px rgba(0, 0, 0, 0.30);
     
+}
+.title h3{
+    width: 70%;
+    height: 50%;
+    /* border: 1px solid orange; */
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    font-family: poppins;
+}
+.part1 img{
+    width: 100%;
+    height: 60%;
+}
+.part2 img{
+    width: 100%;
+    height: 60%;
+}
+.part3 img{
+    width: 100%;
+    height: 60%;
+}
+.content1 h5{
+    font-size: 20px;
+}
+.content1{
+    margin-left: 5px;
+    font-family: poppins;
+}
+.content2{
+    margin-left: 5px;
+    font-family: poppins;
+}
+.content2 h5{
+    font-size: 20px;
+}
+.content3{
+    margin-left: 5px;
+    font-family: poppins;
+}
+.content3 h5{
+    font-size: 18px;
+}
+.content1 a{
+    color: #00D1C1;
+}
+.content2 a{
+    color: #00D1C1;
+}
+.content3 a{
+    color: #00D1C1;
 }

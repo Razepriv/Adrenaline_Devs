@@ -1,0 +1,336 @@
+<footer>
+        <div class="border">
+            <div class="top">
+                <div class="head">
+                    <h4>we are ready to help you</h4>
+                    <p>connect with us,subscribe to our newletter</p>
+                </div>
+                <div class="mail">
+                    <input type="email" placeholder="enter your email" class="email">
+                    <button type="submit" class="btn">subscribe</button>
+                </div>
+            </div>
+            <div class="outline"> 
+                <div class="logo">
+                    <img src="Group 31.png" alt="logo">
+                    <div class="office">
+                        <h6>Head office</h6>
+                        <p>No.1,30th Main Road,Anna nagar,<br>Chennai-600006</p>
+                    </div>
+                </div>
+                <div class="important">
+                    <div class="links">
+                        <h3>Important Links</h3>
+                        <ul>
+                            <li>About Nexgen</li>
+                            <li>Privacy policy</li>
+                            <li>Terms and condition</li>
+                            <li>Refund policy</li>
+                            <li>Careers</li>
+                            <li>Help and support</li>
+                            <br>
+                            <br>
+                            <br>
+                            <div>
+                                 <li>Store loction</li>
+                                <li>FAQs</li>
+                                <li>Franchise opportunity</li>
+                                <br>
+                            </div>
+                           
+                        </ul>
+                        
+                    </div>  
+                </div>
+                <div class="gadgets">
+                    <div class="links2">
+                        <h3>Quick links</h3>
+                    </div>
+                        <div class="links3">
+                            <ul>
+                                <li>Mobile</li>
+                                <li>Tablet</li>
+                                <li>Laptop</li>
+                                <li>Smart watch</li>
+                                <li>Television</li>
+                                <li>Camera</li>
+                                <li>Powerbank</li>
+                                <li>Adopters and cable</li>
+                                <li>Wireless charger</li>
+                                <li>TWS</li>
+                                <li>Wireless earpohone</li>
+                                <li>Headset</li>
+                            </ul>
+                        </div>   
+                </div>
+            </div>
+            <div class="contact"></div>
+        </div>
+    </footer>
+
+
+
+
+    /* footer */
+
+ .border{
+    width: 100%;
+    height: 80vh;
+    border: 1px solid;
+    
+}
+.outline{
+    background-color: #000;
+}
+.top{
+    width: 100%;
+    height: 20%;
+    border: 1px solid red;
+    background-color: #00D1C1;
+    display: inline-flex;
+    align-items: center;
+}
+.head{
+    width: 40%;
+    height: 100%;
+    /* border: 1px solid yellow;    */
+    margin-left: 20px;
+}
+.head h4{
+    font-family: poppins;
+    font-size: 1.3rem;
+    color: #fff;
+}
+.head p{
+    font-family: poppins;
+    font-size: 20px;
+    margin-top: -4%;
+    color: #fff;
+}
+.mail{
+    width: 35%;
+    height: 30%;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    margin-left: 20%;
+    display: flex;
+}
+.email{
+    width: 80%;
+    height: 93%;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    background: #fff;
+    padding-left: 5px;
+}
+.btn{
+    width: 20%;
+    height: 100%;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+    background: #000;
+    font-family: poppins;
+    color: #fff;
+}
+.outline{
+    width: 100%;
+    height: 60%;
+    border: 1px solid aqua;
+    display: flex;
+}
+.logo{
+    width: 33%;
+    height: 100%;
+    border: 1px solid hotpink;
+    align-items: center;
+
+}
+.important{
+    width: 33%;
+    height: 100%;
+    border: 1px solid brown;
+    display: flex;
+}
+
+.gadgets{
+    width: 34%;
+    height: 100%;
+    border: 1px solid navy;
+    display: flex;
+}
+.contact{ 
+    width: 100%;
+    height: 18%;
+    border: 1px solid blueviolet;
+ } 
+  .logo img {
+ width: 50%;
+ height: 25%;
+ /* border:1px solid white; */
+ margin-left:100px;
+ margin-top: 30px;
+ } 
+ .office{
+    width: 65%;
+    height: 25%;
+    /* border: 1px solid #fff; */
+    margin: auto;
+    margin-left: 100px;
+    color: #00D1C1;
+ }
+.office h6{
+    font-size: 20px;
+    font-family: poppins;
+    text-align: top;
+    margin-top: -2px;
+}
+.office p{
+    font-size: 16px;
+    font-family: poppins;
+    margin-top:-30px ;
+    color: white;
+}
+.links{
+    width: 100%;
+    height: 90%;
+    border: 1px solid white;
+    text-align: center;
+    color: #00D1C1;
+    column-count: 2;
+     border: solid black;
+     border-width: 0 3px 3px 0;
+     display: inline-block;
+     padding: 3px;
+      }
+      
+      .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+}
+.links h3{
+    font-family: poppins;
+    text-align: left;
+    margin-top: 1px;
+    margin-left: 5px;
+}
+.links ul{
+    font-family: poppins;
+    letter-spacing: 1px;
+    margin-left: -20px;
+    font-size: 17px;
+    text-align: left;
+    color: #fff;
+    display: flexbox;
+}
+.gadgets{
+    width: 34%;
+    height: 90%;
+    border: 1px solid white;
+}
+.gadgets h3{
+    font-family: poppins;
+    margin-top:1px;
+    margin-left: 5px;
+    color:#00D1C1;
+}
+.links2{
+    font-size: 15px;
+}
+.links3{
+    width: 100%;
+    height: 50%;
+    border: 1px solid white;
+    margin-left: -1px;
+    margin: auto;
+    column-count: 2;
+    color: #fff;
+}
+
+
+<section class="customer-carousel">
+    <div class="customer-wrapper">
+        <div class="customer-review-head">
+            <h3>What our Customers says</h3>
+        </div>
+        <div class="customer-carousel-wrapper">
+            <div class="review">
+                <div class="customer-img">
+                   <img src="Ellipse 63.png" alt="review pic" />
+               </div>
+               <div class="customer-info">
+                   <h5>Frank santiago</h5>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+               </div> 
+             </div>
+             <div class="review">
+               <div class="customer-img">
+                   <img src="Ellipse 63 (1).png" alt="review pic" />
+               </div>
+               <div class="customer-info">
+                   <h5>Andrea kebs </h5>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                </div>  
+             </div>
+             <div class="review">
+                <div class="customer-img">
+                   <img src="Ellipse 63 (2).png" alt="review pic" />
+               </div>
+               <div class="customer-info">
+                   <h5>moose gepp</h5>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+                   <span class="fa fa-star checked"></span>
+               </div> 
+               <div class="review">
+                   <div class="customer-img">
+                      <img src="Ellipse 63.png" alt="review pic" />
+                  </div>
+                  <div class="customer-info">
+                      <h5>Frank santiago</h5>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                  </div> 
+                </div>
+                <div class="review">
+                   <div class="customer-img">
+                      <img src="Ellipse 63.png" alt="review pic" />
+                  </div>
+                  <div class="customer-info">
+                      <h5>Frank santiago</h5>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                  </div> 
+                </div>
+                <div class="review">
+                   <div class="customer-img">
+                      <img src="Ellipse 63.png" alt="review pic" />
+                  </div>
+                  <div class="customer-info">
+                      <h5>Frank santiago</h5>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                      <span class="fa fa-star checked"></span>
+                  </div> 
+                  
+                </div>
+           </div>
+        </div>
+</section>

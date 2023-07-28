@@ -23,6 +23,7 @@
         "listitem": "off",
         "list": "off"
       }
-    ]
+    ],
+    "disown-opener": "off"
   }
 }
